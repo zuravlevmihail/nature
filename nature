@@ -14,3 +14,13 @@ def make_choice():
 def left_door():
     print("Вы вошли в левую дверь и оказались в саду с яркими цветами.")
     print("Вы наслаждаетесь природой.")
+
+def right_door():
+    print("Вы вошли в правую дверь и попали в темное подземелье.")
+    print("Вы слышите странные звуки вокруг себя.")
+
+def main():
+    introduction()
+
+    while True:
+        choice = make_choice()
